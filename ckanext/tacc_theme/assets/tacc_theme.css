@@ -1366,7 +1366,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #555555;
+  color: var(--text-muted);
 }
 .text-primary {
   color: #206b82;
@@ -2394,7 +2394,7 @@ table th[class*='col-'] {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #555555;
+  color: var(--text-muted);
   text-align: left;
 }
 th {
@@ -2683,7 +2683,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: var(--text-muted);
 }
 .form-control {
   display: block;
@@ -2692,7 +2692,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555555;
+  color: var(--text-muted);
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -4025,7 +4025,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
-  color: #555555;
+  color: var(--text-muted);
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
@@ -4159,7 +4159,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: var(--text-muted);
   cursor: default;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -8631,7 +8631,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   top: -1px;
 }
 .label-inverse {
-  background-color: #555555;
+  background-color: var(--text-muted);
 }
 .dataset-private {
   margin-right: 10px;
