@@ -3261,24 +3261,24 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary {
   color: #ffffff;
   background-color: var(--primary);
-  border-color: #6039cc;
+  border-color: var(--primary-dark);
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #6039cc;
+  background-color: var(--primary-dark);
   border-color: #3d189b;
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #6039cc;
+  background-color: var(--primary-dark);
   border-color: #3d189b;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #6039cc;
+  background-color: var(--primary-dark);
   background-image: none;
   border-color: #3d189b;
 }
@@ -3305,7 +3305,7 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
   background-color: var(--primary);
-  border-color: #6039cc;
+  border-color: var(--primary-dark);
 }
 .btn-primary .badge {
   color: var(--primary);
@@ -5597,7 +5597,7 @@ a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
   color: #ffffff;
   background-color: var(--primary);
-  border-color: #6039cc;
+  border-color: var(--primary-dark);
 }
 .list-group-item-info {
   color: #707070;
@@ -5625,7 +5625,7 @@ a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
   color: #ffffff;
   background-color: var(--primary);
-  border-color: #6039cc;
+  border-color: var(--primary-dark);
 }
 .list-group-item-warning {
   color: #8a6d3b;
