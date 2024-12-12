@@ -1120,7 +1120,9 @@ body {
   color: var(--text-color);
   background-color: var(--white);
 }
-input,
+input {
+  border-color: var(--primary);
+}
 button,
 select,
 textarea {
