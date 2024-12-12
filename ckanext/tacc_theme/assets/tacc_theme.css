@@ -98,7 +98,7 @@ h1 {
 }
 mark {
   background: #ff0;
-  color: #000;
+  color: var(--black)
 }
 small {
   font-size: 80%;
@@ -271,7 +271,7 @@ th {
     border-top-color: #000 !important;
   }
   .label {
-    border: 1px solid #000;
+    border: 1px solid var(--black)
   }
   .table {
     border-collapse: collapse !important;
@@ -6192,14 +6192,14 @@ button.list-group-item-danger.active:focus {
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: #000;
+  color: var(--black)
   text-shadow: 0 1px 0 var(--white);
   filter: alpha(opacity=20);
   opacity: 0.2;
 }
 .close:hover,
 .close:focus {
-  color: #000;
+  color: var(--black)
   text-decoration: none;
   cursor: pointer;
   filter: alpha(opacity=50);
@@ -6271,7 +6271,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000;
+  background-color: var(--black)
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
@@ -6384,63 +6384,63 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000;
+  border-top-color: var(--black)
 }
 .tooltip.top-left .tooltip-arrow {
   right: 5px;
   bottom: 0;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000;
+  border-top-color: var(--black)
 }
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   left: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000;
+  border-top-color: var(--black)
 }
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #000;
+  border-right-color: var(--black)
 }
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #000;
+  border-left-color: var(--black)
 }
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000;
+  border-bottom-color: var(--black)
 }
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000;
+  border-bottom-color: var(--black)
 }
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   left: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000;
+  border-bottom-color: var(--black)
 }
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
   color: var(--white);
   text-align: center;
-  background-color: #000;
+  background-color: var(--black)
   border-radius: 4px;
 }
 .tooltip-arrow {
@@ -7290,7 +7290,7 @@ a.tag:hover {
 }
 .module .read-more {
   font-weight: bold;
-  color: #000;
+  color: var(--black)
 }
 .pagination-wrapper {
   text-align: center;
@@ -7600,7 +7600,7 @@ a.tag:hover {
   bottom: 0;
   padding: 12px 10px;
   margin: 0;
-  background-color: #000;
+  background-color: var(--black)
   background-color: rgba(0, 0, 0, 0.8);
   font-size: 13px;
   color: var(--white);
@@ -8105,7 +8105,7 @@ select[data-module='autocomplete'] {
   transition: color 0.2s ease-in;
 }
 .simple-input .field .btn-search:hover {
-  color: #000;
+  color: var(--black)
 }
 .editor textarea {
   border-radius: 3px 3px 0 0;
@@ -8671,7 +8671,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   background-color: #eee;
 }
 .resource-item .heading {
-  color: #000;
+  color: var(--black)
   font-size: 14px;
   font-weight: bold;
 }
@@ -8828,7 +8828,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   line-height: 50px;
 }
 .view-list li a h3 {
-  color: #000;
+  color: var(--black)
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 3px 0;
@@ -8985,7 +8985,7 @@ td.diff_header {
   transition: color 0.2s ease-in;
 }
 .search-form .search-input button:hover i {
-  color: #000;
+  color: var(--black)
 }
 .search-form .search-input.search-giant input {
   font-size: 16px;
@@ -9018,7 +9018,7 @@ td.diff_header {
   margin-top: 10px;
   font-size: 18px;
   font-weight: normal;
-  color: #000;
+  color: var(--black)
 }
 .search-form.no-bottom-border {
   border-bottom-width: 0;
@@ -10601,10 +10601,10 @@ h4 small {
   margin-top: 0;
 }
 .lang-select select {
-  color: #000;
+  color: var(--black)
 }
 .lang-dropdown {
-  color: #000;
+  color: var(--black)
 }
 .lang-dropdown li {
   width: auto;
@@ -11007,7 +11007,7 @@ br.line-height2 {
   box-shadow: inset 0 1px 2x rgba(0, 0, 0, 0.2);
 }
 .popover-followee .nav li a:hover i {
-  background-color: #000;
+  background-color: var(--black)
 }
 .popover-followee .nav li.active a i {
   color: #187794;
@@ -11188,7 +11188,7 @@ table .metric {
   width: 140px;
 }
 code {
-  color: #000;
+  color: var(--black)
   border: none;
   background: none;
   white-space: normal;
