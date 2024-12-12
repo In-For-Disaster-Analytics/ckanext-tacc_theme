@@ -1117,7 +1117,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: var(--text-color);
   background-color: #fff;
 }
 input,
@@ -1592,7 +1592,7 @@ pre {
   margin: 0 0 10px;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #333333;
+  color: var(--text-color);
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f5f5f5;
@@ -2630,7 +2630,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #333333;
+  color: var(--text-color);
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -3676,7 +3676,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #333333;
+  color: var(--text-color);
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -5151,7 +5151,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: var(--text-color);
 }
 .alert {
   padding: 15px;
@@ -6035,7 +6035,7 @@ button.list-group-item-danger.active:focus {
   border-color: #ddd;
 }
 .panel-default > .panel-heading {
-  color: #333333;
+  color: var(--text-color);
   background-color: #f5f5f5;
   border-color: #ddd;
 }
@@ -6044,7 +6044,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading .badge {
   color: #f5f5f5;
-  background-color: #333333;
+  background-color: var(--text-color);
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddd;
@@ -8551,7 +8551,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   margin-right: 10px;
 }
 .js .image-upload .btn.hover {
-  color: #333333;
+  color: var(--text-color);
   text-decoration: none;
   background-position: 0 -15px;
   -webkit-transition: background-position 0.1s linear;
