@@ -4,6 +4,37 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/* Add variables at the top of the file */
+:root {
+  /* Primary colors */
+  --primary: #784fe8;
+  --primary-dark: #6039cc;
+  --primary-darker: #3d189b;
+
+  /* Text colors */
+  --text-color: #333333;
+  --text-muted: #555555;
+  --text-light: #777777;
+
+  /* UI colors */
+  --white: #fff;
+  --black: #000;
+  --gray-lighter: #eeeeee;
+  --gray-light: #f5f5f5;
+  --border-color: #ccc;
+  --border-color-dark: #ddd;
+
+  /* State colors */
+  --success: #3c763d;
+  --success-bg: #dff0d8;
+  --info: #31708f;
+  --info-bg: #d9edf7;
+  --warning: #8a6d3b;
+  --warning-bg: #fcf8e3;
+  --danger: #a94442;
+  --danger-bg: #f2dede;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -3229,7 +3260,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #784fe8;
+  background-color: var(--primary);
   border-color: #6039cc;
 }
 .btn-primary:focus,
@@ -3273,11 +3304,11 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #784fe8;
+  background-color: var(--primary);
   border-color: #6039cc;
 }
 .btn-primary .badge {
-  color: #784fe8;
+  color: var(--primary);
   background-color: #fff;
 }
 .btn-success {
@@ -5565,7 +5596,7 @@ button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
   color: #ffffff;
-  background-color: #784fe8;
+  background-color: var(--primary);
   border-color: #6039cc;
 }
 .list-group-item-info {
@@ -5593,7 +5624,7 @@ button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
   color: #ffffff;
-  background-color: #784fe8;
+  background-color: var(--primary);
   border-color: #6039cc;
 }
 .list-group-item-warning {
@@ -10034,7 +10065,7 @@ h4 small {
   margin-bottom: 10px;
 }
 .homepage .module-search .search-giant input {
-  border-color: #784fe8;
+  border-color: var(--primary);
 }
 .homepage .module-search .module-content {
   border-radius: 3px 3px 0 0;
