@@ -1383,7 +1383,7 @@ a.text-success:focus {
   color: #2b542c;
 }
 .text-info {
-  color: #31708f;
+  color: var(--info);
 }
 a.text-info:hover,
 a.text-info:focus {
@@ -5196,7 +5196,7 @@ a.thumbnail.active {
   color: #2b542c;
 }
 .alert-info {
-  color: #31708f;
+  color: var(--info);
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
@@ -6089,7 +6089,7 @@ button.list-group-item-danger.active:focus {
   border-color: #bce8f1;
 }
 .panel-info > .panel-heading {
-  color: #31708f;
+  color: var(--info);
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
@@ -6098,7 +6098,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-info > .panel-heading .badge {
   color: #d9edf7;
-  background-color: #31708f;
+  background-color: var(--info);
 }
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #bce8f1;
