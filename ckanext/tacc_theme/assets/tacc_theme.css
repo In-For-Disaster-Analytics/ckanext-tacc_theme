@@ -11,6 +11,8 @@
   --primary-dark: #6039cc;
   --primary-darker: #3d189b;
 
+  /* Background colors */
+  --background-color: #F4F4F4;
   /* Text colors */
   --text-color: #333333;
   --text-muted: #555555;
@@ -9899,7 +9901,7 @@ h4 small {
 }
 @media (min-width: 768px) {
   .hero {
-    background-color: #d7d7d7;
+    background-color: var(--background-color);
   }
 }
 .hero:after {
