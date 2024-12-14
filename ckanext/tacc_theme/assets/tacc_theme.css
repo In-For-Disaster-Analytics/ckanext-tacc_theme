@@ -7161,15 +7161,16 @@ a.tag:hover {
 }
 .pill {
   display: inline-block;
-  background-color: var(--primary-lightest);
+  background-color: var(--background-color);
   color: var(--text-color);
+  border: 1px solid var(--border-color-dark);
   padding: 2px 10px 1px 10px;
   margin-right: 5px;
   font-weight: normal;
   border-radius: 100px;
 }
 .pill a {
-  color: var(--white);
+  color: var(--text-color);
 }
 .pill a.remove {
   font-size: 11px;
