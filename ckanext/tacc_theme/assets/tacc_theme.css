@@ -5050,11 +5050,12 @@ a.label:focus {
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  color: var(--white);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  background-color: var(--primary-lightest);
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color-dark);
+  color: var(--text-color);
   border-radius: 10px;
 }
 .badge:empty {
