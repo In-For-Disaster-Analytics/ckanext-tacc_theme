@@ -3366,8 +3366,8 @@ fieldset[disabled] .btn-success.focus {
   border-color: #d2cce7;
 }
 .btn-success .badge {
-  color: #e3d7fd;
-  background-color: #484848;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 .btn-info {
   color: #707070;
