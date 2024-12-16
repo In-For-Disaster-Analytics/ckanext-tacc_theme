@@ -8657,7 +8657,8 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   display: inline;
 }
 .dataset-resources li a {
-  background-color: var(--primary-lightest);
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
 }
 .dataset-heading .popular {
   top: 0;
@@ -8678,7 +8679,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   background-color: #eee;
 }
 .resource-item .heading {
-  color: var(--black)
+  color: var(--black);
   font-size: 14px;
   font-weight: bold;
 }
