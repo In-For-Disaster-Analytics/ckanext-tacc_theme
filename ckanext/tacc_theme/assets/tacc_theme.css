@@ -10288,7 +10288,7 @@ h4 small {
 }
 .masthead {
   margin-bottom: initial;
-  padding: 10px 0;
+  padding: 5px 0;
   color: var(--white);
   background: #222222 url('../../base/images/bg.png');
 }
@@ -10342,7 +10342,7 @@ h4 small {
   max-height: 40px;
 }
 .masthead .navbar-collapse {
-  padding: 10px 0;
+  padding: 0px 0;
 }
 .masthead .section {
   float: left;
