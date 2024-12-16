@@ -8659,6 +8659,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
 .dataset-resources li a {
   background-color: var(--background-color);
   border: 1px solid var(--border-color);
+  color: var(--text-color);
 }
 .dataset-heading .popular {
   top: 0;
