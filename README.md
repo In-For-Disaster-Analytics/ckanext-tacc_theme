@@ -1,6 +1,8 @@
 [![Tests](https://github.com/mosoriob/ckanext-tacc_theme/workflows/Tests/badge.svg?branch=main)](https://github.com/mosoriob/ckanext-tacc_theme/actions)
 
-# ckanext-tacc_theme
+# ckanext-tacc_theme DEPRECATED
+
+https://github.com/In-For-Disaster-Analytics/ckan-docker/pull/22
 
 **TODO:** Put a description of your extension here:  What does it do? What features does it have? Consider including some screenshots or embedding a video!
 
